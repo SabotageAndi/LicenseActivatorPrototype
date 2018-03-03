@@ -1,0 +1,6 @@
+source https://www.myget.org/F/avalonia-ci/api/v2
+source https://www.nuget.org/api/v2/
+
+nuget Avalonia 0.4.1-build3057-alpha
+nuget Avalonia.Skia.Desktop 0.4.1-build3057-alpha
+nuget Avalonia.Win32 0.4.1-build3057-alpha
