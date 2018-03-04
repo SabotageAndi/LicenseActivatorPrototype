@@ -1,6 +1,6 @@
 source https://www.myget.org/F/avalonia-ci/api/v2
 source https://www.nuget.org/api/v2/
 
-nuget Avalonia
-nuget Avalonia.Desktop
-nuget Avalonia.ReactiveUI
+nuget Avalonia prerelease
+nuget Avalonia.Desktop prerelease
+nuget Avalonia.ReactiveUI prerelease

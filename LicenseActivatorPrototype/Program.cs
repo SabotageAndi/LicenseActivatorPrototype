@@ -1,5 +1,6 @@
 ﻿using System;
 using Avalonia;
+using LicenseActivatorPrototype.Views;
 
 namespace LicenseActivatorPrototype
 {

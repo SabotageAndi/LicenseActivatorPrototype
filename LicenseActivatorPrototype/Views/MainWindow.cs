@@ -1,7 +1,7 @@
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
-namespace LicenseActivatorPrototype
+namespace LicenseActivatorPrototype.Views
 {
     public class MainWindow : Window
     {
