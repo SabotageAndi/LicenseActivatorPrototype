@@ -1,6 +1,7 @@
 ﻿using System;
 using Avalonia;
 using LicenseActivatorPrototype.Views;
+using LicenseActivatorPrototype.ViewModels;
 
 namespace LicenseActivatorPrototype
 {
@@ -10,7 +11,12 @@ namespace LicenseActivatorPrototype
         {
             AppBuilder.Configure<App>()
                 .UsePlatformDetect()
-                .Start<MainWindow>();
+                .Start<MainWindow>(GetDataContext);
+        }
+
+        private static object GetDataContext()
+        {
+            return new MainViewModel();
         }
     }
 }

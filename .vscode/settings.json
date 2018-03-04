@@ -1,0 +1,5 @@
+{
+    "qub-xml-vscode.telemetry.enabled": false,
+    "qub-xml-vscode.formatOptions.alignAttributes": false,
+    "csharpextensions.privateMemberPrefix": "_"    
+}
